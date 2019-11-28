@@ -1,0 +1,121 @@
+
+body,html{
+	height: 100%;
+}
+
+#container{
+	border: 1px solid #000;
+	height: 100%;
+	display: grid;
+	grid-template-rows: minmax(min-content,20%) minmax(min-content,7%) auto 15%;
+	grid-row-gap: 1%;
+}
+
+#header{
+	border: 1px solid #000;
+	/*background-image: url("https://3eaf214443cb92a1.cdn.gocache.net/wp-content/uploads/2019/08/banking-760x450.jpg");
+	background-repeat: no-repeat;*/
+	background: #A68405; /* amarelo*/
+}
+
+#header h1{
+	text-align: center;
+	color: black;
+}
+
+#main{
+	border: 1px solid #000;
+	display: grid;
+	grid-template-columns: 20% auto 20%;
+	grid-column-gap: 1%;
+	color: black;
+}
+
+#main #menu-lateral, #main #menu-lateral-direita{
+	border: 1px solid #000;
+	background:black ;	
+}
+
+#main #content{
+	border: 1px solid #000;
+	background: #A68405;
+}
+
+#footer{
+	border: 1px solid #000;
+	background: #A68405;
+}
+
+#menu{
+	border: 1px solid #000;
+	background: black;
+}
+
+#menu ul{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+}
+
+#menu ul li{
+	border: 1px solid #000;
+	margin: 3px;
+	padding: 5px;
+	background: #FFD700;
+}
+
+#menu-lateral-direita ul, #menu-lateral ul{	
+	list-style: none;
+	padding: 0px;	
+}
+
+#menu-lateral-direita ul li, #menu-lateral ul li{
+	border: 1px solid #000;
+	margin: 3px;
+	padding: 5px;
+	background: #FFD700;
+	text-align: center;
+}
+
+a:link{
+	color: white;
+}
+
+a:hover{
+	color: red;
+}
+
+p, h1, h2, h3, h4{
+	color: black;
+}
+
+.row{
+	text-align: center;
+	padding: 2px;
+	margin: center;
+}
+
+.form-group{
+	border: 3px solid black;
+	margin: 1px;
+	padding: 0px 0px 20px 0px;
+	display: block;
+}
+
+.nome{
+	text-align: center;
+}
+
+#table tr, td{
+	border: 2px solid #000;
+	padding: 1px;
+	color: white;
+	border-color: yellow;
+
+}
+
+.table {
+    width: 50% !important; /*Importante manter o !important rs */
+    margin: auto;
+    background: black;
+}
